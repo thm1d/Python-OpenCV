@@ -4,10 +4,13 @@ OpenCV provides many drawing functions to draw geometric shapes and write text o
 
 Some of the drawing functions are :
 
-> `cv2.line()` : Used to draw line on an image. 
-> `cv2.rectangle()` : Used to draw rectangle on an image. 
-> `cv2.circle()`s : Used to draw circle on an image. 
-> `cv2.putText()` : Used to write text on image.
+`cv2.line()` : Used to draw line on an image. 
+
+`cv2.rectangle()` : Used to draw rectangle on an image. 
+
+`cv2.circle()`s : Used to draw circle on an image. 
+
+`cv2.putText()` : Used to write text on image.
 
 ## Draw a line
 The function cv.line() adds a line to an image:
