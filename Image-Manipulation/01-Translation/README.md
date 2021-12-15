@@ -83,15 +83,23 @@ cv2.warpAffine(src, M, dsize, dst, flags, borderMode, borderValue)
 **Parameters**:
 
 **src**: input image.
+
 **dst**: output image that has the size dsize and the same type as src.
+
 **M**: transformation matrix.
+
 **dsize**: size of the output image.
+
 **flags**: combination of interpolation methods (see resize() ) and the optional flag
 `WARP_INVERSE_MAP` that means that M is the inverse transformation (dst->src).
+
 **borderMode**: pixel extrapolation method; when `borderMode=BORDER_TRANSPARENT`, it means that the pixels in the destination image corresponding to the “outliers” in the source image are not modified by the function.
+
 **borderValue**: value used in case of a constant border; by default, it is 0.
 
+
 **Example**:
+
 ```
 shifted = cv2.warpAffine(image, M, (image.shape[1], image.shape[0]))
 ```
